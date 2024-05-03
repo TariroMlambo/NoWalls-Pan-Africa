@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero {
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 100px 100px 100px 150px;
+  background-color: crimson;
+}
+#hero nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+#hero nav ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  padding-left: 400px;
+}/*# sourceMappingURL=style.css.map */

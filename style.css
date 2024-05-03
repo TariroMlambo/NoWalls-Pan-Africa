@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.1 ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#hero {
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+  padding-left: 100px;
+}
+nav li {
+  text-align: center;
+  align-items: center;
+  list-style: none;
+}
+nav li .actin {
+  color: #061F27;
+  font-size: 40px;
+  font-weight: normal;
+}
+nav li .actor {
+  color: #061F27;
+  font-size: 40px;
+  font-weight: normal;
+}
+nav li .active {
+  color: #CD7E50;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+#home {
+  display: flex;
+  gap: 100px;
+  margin: 10px;
+}
+#home .texting h1 {
+  font-size: 100px;
+  font-weight: normal;
+  color: #061F27;
+  margin-left: 30px;
+}
+#home .texting h3 {
+  font-size: 50px;
+  font-weight: normal;
+  margin-left: 30px;
+}
+#home .texting h3 span {
+  color: #CD7E50;
+}
+#home .texting .main {
+  display: flex;
+  align-items: center;
+}
+#home .texting .main hr {
+  width: 120px;
+  height: 2px;
+  color: #CD7E50;
+  margin-left: 30px;
+}
+#home .texting .main h5 {
+  font-size: 25px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+#home .walls {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+  gap: 20px;
+}
+#home .walls .photo1 {
+  margin-bottom: 20px;
+  gap: 30px;
+}
+#home .walls .photo3 {
+  margin-top: 40px;
+}
+#home .photo2 {
+  margin-bottom: 0px;
+  gap: 30px;
+}
+
+#passion {
+  display: flex;
+  gap: 30px;
+  color: #061F27;
+  margin: 5px;
+  padding: 0px 20px 20px 35px;
+}
+#passion .driven h1 {
+  color: #CD7E50;
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 70px;
+  margin: 50px;
+}
+#passion .driven p {
+  color: #061F27;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 3px;
+  margin-top: 120px;
+  margin: 50px;
+}
+
+.try img {
+  margin-bottom: 200px;
+  height: 400px;
+}
+
+#deliver {
+  padding: 100px 50px 0px 50px;
+  background-color: #061F27;
+}
+#deliver .tax {
+  color: white;
+}
+#deliver .amazing-container {
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#deliver .amazing-container .card {
+  background-color: #061F27;
+  padding: 10px;
+  border: none;
+}
+#deliver .amazing-container .card h4 {
+  color: #CD7E50;
+}
+#deliver .amazing-container .card hr {
+  background-color: #CD7E50;
+  height: 3px;
+  border: white;
+  border-radius: none;
+}
+#deliver .amazing-container .card p {
+  color: white;
+}
+
+#create {
+  padding: 100px 50px 0px 50px;
+}
+#create .fused {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+#create .fused .fovoro h5 {
+  color: #CD7E50;
+  font-size: 20px;
+  font-weight: 800;
+}
+#create .fused .fovoro .fovo {
+  padding: 10px 20px;
+  background: #061F27;
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+#create .fused .hobia img {
+  width: 100%;
+}
+
+#kc {
+  padding: 100px 50px 0px 50px;
+  background-color: #F0F1F3;
+}
+#kc .ki {
+  display: flex;
+  gap: 300px;
+}
+#kc .ki h6 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  color: #CD7E50;
+}
+#kc .ki p {
+  padding: 0px 0px 0px 50px;
+}
+#kc .ki .form {
+  row-gap: 30px;
+}
+#kc .ki .form input {
+  width: 400px;
+  padding: 20px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+#kc .ki .form .message input {
+  height: 200px;
+}
+#kc .ki .btn {
+  padding: 0px;
+}
+#kc .ki .btn button {
+  padding: 10px;
+  width: 400px;
+  background: #061F27;
+  color: white;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
